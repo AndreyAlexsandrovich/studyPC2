@@ -1,0 +1,43 @@
+
+.titles__pertners {
+    position: relative;
+}
+
+
+.partners__title { 
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #fff;
+    margin-left: 128px;
+    margin-bottom: 117px;
+}
+
+.partners__title::after { 
+    content: url('../../../../src/assets/Main-img/little/3.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.partners__line-box { 
+    display: flex;
+    justify-content: space-around;
+    gap: 130px;
+}
+
+.partner {
+    position: relative;
+}
+
+
+.partners__line-box:nth-of-type(1) { 
+    margin-bottom: 25px;
+}
+
+.partners__line-box:nth-of-type(2) { 
+    margin-top: 25px;
+}
+
+

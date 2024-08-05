@@ -1,0 +1,9 @@
+.button { 
+    background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 100%;
+    line-height: 150%;
+    text-align: center;
+}

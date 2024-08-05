@@ -1,0 +1,54 @@
+
+.titles {
+    position: relative;
+}
+
+.titles::after {
+    content: url('../../../../src/assets/Main-img/little/4.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fast-start__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #fff;
+    margin-left: 128px;
+}
+
+
+.fast-start__description-2 {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffff;
+    opacity: 0.5;
+}
+
+.box_line { 
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0 70px 0;
+    align-items: center;
+}
+.percent_block__progress {
+    width: 324px;
+    height: 80px;
+    background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+}
+
+div.percent_block__progress:nth-of-type(2) { 
+    height: 60px;
+}
+
+div.percent_block__progress:nth-of-type(3) { 
+    height: 30px;
+}
+
+div.percent_block__progress:nth-of-type(4) { 
+    height: 10px;
+}

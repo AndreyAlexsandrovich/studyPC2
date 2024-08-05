@@ -1,0 +1,45 @@
+.profession {
+    padding: 200px 0 200px 0;
+}
+
+.profession__title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 140%;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 120px;
+}
+
+
+.profession__cars {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.car { 
+    text-align: center;
+}
+
+.car__img { 
+    margin-bottom: 60px;
+}
+
+.car__title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 140%;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+
+.car__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #ffff;
+}

@@ -1,0 +1,62 @@
+
+.teaches__box { 
+    position: relative;
+}
+
+.teaches__title { 
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #fff;
+    margin-left: 128px;
+    margin-bottom: 117px;
+}
+
+.teaches__title::after { 
+    content: url('../../../../src/assets/Main-img/little/2.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+.teaches__container { 
+    display: flex;
+    gap: 137px;
+    flex-wrap: wrap;
+}
+
+
+.cart-teaches { 
+    padding: 20px;
+    text-align: center;
+}
+
+.teaches__name { 
+    font-size: 1.56rem;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 40px;
+    line-height: 140%;
+}
+
+.teaches__description { 
+    color: #fff;
+    font-size: 1.12rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.teaches__btn { 
+    font-size: 1rem;
+    color: #ffff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+}
+
+.teaches__btn:hover { 
+    background-color: #ffffff6a;
+}

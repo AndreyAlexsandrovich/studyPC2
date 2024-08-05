@@ -1,0 +1,40 @@
+.line-result {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 8px;
+}
+
+.line-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
+    opacity: 0.4;
+}
+
+.line-progress {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
+}
+
+.line-arr {
+    width: 357px;
+    height: 5px;
+    background: var(--color-white);
+    overflow: hidden;
+}
+
+.line-bg {
+    height: 100%;
+}
+
+
+.line-goal {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-white);
+    opacity: 0.4;
+}

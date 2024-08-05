@@ -1,0 +1,130 @@
+:root {
+    --color-white: #fff;
+}
+
+header {
+    padding: 38px 0 38px 0;
+    background: url(../../src/assets/Header-img/main-screen__bgc.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.list {
+    display: flex;
+    gap: 50px;
+}
+
+
+.link {
+    position: relative;
+    color: var(--color-white);
+    font-size: 1em;
+    transition: .3s ease-in-out;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.link:hover::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-white);
+    animation: line 1000ms;
+}
+
+@keyframes line {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.header-main {
+    padding: 280px 0 280px 0;
+}
+
+.title-header {
+    color: var(--color-white);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.flex {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.block {
+    padding: 20px 30px;
+    background: #121212;
+    text-align: center;
+}
+
+.time {
+    font-size: 2.25rem;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.desc_time {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    text-align: center;
+    color: var(--color-white);
+    opacity: 0.4;
+}
+
+.bridge {
+    padding: 36px 0 36px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #121212;
+}
+
+.list-result {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.list-student {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.item-student {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
+    font-weight: 300;
+    opacity: 0.4;
+}
+
+.number-student {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
+}
+
+
